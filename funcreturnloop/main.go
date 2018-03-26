@@ -18,7 +18,7 @@ func wrapper() func() int {
 
 func main() {
 	inc := wrapper()
-	for i := 0; i < 5; i++ {
+	for i := 1; i < 5; i++ {
 		fmt.Println(inc())
 	}
 }
