@@ -21,4 +21,3 @@ func main() {
 	fmt.Printf("%b\t", TB)
 	fmt.Printf("%d\n", TB)
 }
-
